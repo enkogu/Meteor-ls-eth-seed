@@ -1,0 +1,109 @@
+.proj-name
+    overflow: hidden
+    text-overflow: ellipsis
+    max-height: $font-size*$line-height*3
+
+    height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+
+    .meta
+        font-weight: 400
+        font-size: 17px !important
+        height: $font-size*$line-height; /* Fallback for non-webkit */
+
+.progress-bar   
+    display: inline-block
+
+    max-width: 600px
+
+    overflow-x: auto
+    min-height: 50px
+    white-space: nowrap
+
+
+    .progress-el
+        display: inline-block
+        margin-right: 10px
+
+    .progress
+        height: 30px
+        background-color: rgb(148,208,39)
+        min-width: 100px
+        border-radius: 2px
+
+    .bought
+        margin-top: -30px
+
+        min-width: 98px
+        height: 30px
+        background-color: rgb(39,148,208)
+        // margin-right: 10px
+        border-radius: 2px
+
+
+    .label.sellers
+
+
+    .progress-percent
+        // position: absolute
+        color: white 
+        font-weight: bold
+        margin-top: -25px
+        margin-left: 5px
+
+.survey-segment
+    display: flex
+    justify-content: center
+    flex-direction: column
+    // width: 800px
+    float: center
+    background-color: white
+    padding-bottom: 64px
+    padding-top: 18px
+    
+    // padding-bottom: 32px
+    align-items: center
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24), 0 0 2px rgba(0, 0, 0, 0.12) !important
+    border: 1px solid rgba(34, 36, 38, 0.15)
+    margin-top: 5px
+
+    .survey.header
+        font-size: 24px
+        margin-top: 32px
+
+    .survey.buttons
+        display: block
+        margin-top: 24px
+
+        button 
+            margin-left: 5px
+            margin-right: 5px
+            text-transform: none
+            font-size: 22px
+            max-width: 420px
+            // text-align: left
+
+
+/* Tooltip text */
+.tooltip .tooltiptext 
+    visibility: hidden;
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    color: rgba(255,255,255,0);
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 2px;
+    height: 30px
+    font-size: 11px
+    -webkit-transition: background-color 0.5s, color 0.5s
+    transition: background-color 0.5s, color 0.5s
+    transition-delay: 0.3s
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 3;
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext
+    visibility: visible;
+    background-color: rgba(0,0,0,0.7);
+    color: rgba(255,255,255,1);

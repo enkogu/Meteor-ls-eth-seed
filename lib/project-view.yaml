@@ -1,0 +1,37 @@
+states: 
+  - number : 1
+    name   : Initial
+    text   : The project on the platform has been created, the crowedfinding campaign has not yet begun. Refund sellers can add offers 
+    capabilities: 
+        seller_current   : [Increase amount]
+        seller_potential : [Create refund]
+        buyer_current    : []
+        buyer_potential  : []
+        admin            : []
+        cfsite           : []
+    available-elements: 
+        seller_current   : [date, statistics, price-distribution]
+        seller_potential : [date, statistics, price-distribution]
+        buyer_current    : [date, statistics, price-distribution]
+        buyer_potential  : [date, statistics, price-distribution]
+        admin            : [date, statistics, price-distribution]
+        cfsite           : [date, statistics, price-distribution]
+
+  - number : 2
+    name   : Crowdfunding started
+    text   : Crowdfunding campaign started
+    capabilities: 
+        seller_current   : [Increase amount]
+        seller_potential : [Create refund]
+        buyer_current    : []
+        buyer_potential  : []
+        admin            : []
+        cfsite           : []
+    available-elements: 
+        seller_current   : [date, statistics, price-distribution]
+        seller_potential : [date, statistics, price-distribution]
+        buyer_current    : [date, statistics, price-distribution]
+        buyer_potential  : [date, statistics, price-distribution]
+        admin            : [date, statistics, price-distribution]
+        cfsite           : [date, statistics, price-distribution]
+

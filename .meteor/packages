@@ -1,0 +1,52 @@
+meteor-base@1.1.0                   # Packages every Meteor app needs to have
+mongo@1.1.18                         # The database Meteor supports right now
+blaze-html-templates   		  # Compile .html files into Meteor Blaze views
+reactive-var@1.0.11                  # Reactive variable for tracker
+jquery@1.11.10                        # Helpful client-side library
+#mrt:jquery-ui
+#aldeed:simple-schema
+email
+practicalmeteor:mocha
+peerlibrary:assert
+http
+
+accounts-base@1.3.0
+accounts-ui@1.1.9
+accounts-password@1.3.6
+#accounts-google
+#accounts-github
+
+msavin:mongol@2.0.1
+autopublish@1.0.7
+insecure@1.0.7
+
+semantic:ui
+flemay:less-autoprefixer
+fourseven:scss
+juliancwirko:postcss 
+
+mizzao:bootboxjs
+# twbs:bootstrap
+iron:router
+matb33:collection-hooks
+
+reactive-dict@1.1.9
+
+zenkogu:livescript-compiler
+
+meteorhacks:npm
+
+zardak:preludels
+
+standard-minifier-js@2.1.0
+shell-server@0.2.3
+
+service-configuration@1.0.11
+
+npm-container
+
+ethereum:web3@=0.18.3
+3stack:bignumber
+dynamic-import
+ecmascript-runtime-client@0.4.1
+minimongo@1.2.0
